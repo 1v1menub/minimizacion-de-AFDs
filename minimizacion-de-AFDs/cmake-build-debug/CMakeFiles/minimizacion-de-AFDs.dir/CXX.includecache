@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/hayam/CLionProjects/minimizacion-de-AFDs/src/funciones.cpp
+algorithm
+-
+funciones.h
+C:/Users/hayam/CLionProjects/minimizacion-de-AFDs/src/funciones.h
+
+C:/Users/hayam/CLionProjects/minimizacion-de-AFDs/src/funciones.h
+lib.h
+C:/Users/hayam/CLionProjects/minimizacion-de-AFDs/src/lib.h
+
+C:/Users/hayam/CLionProjects/minimizacion-de-AFDs/src/lib.h
+iostream
+-
+vector
+-
+
+C:/Users/hayam/CLionProjects/minimizacion-de-AFDs/src/main.cpp
+funciones.h
+C:/Users/hayam/CLionProjects/minimizacion-de-AFDs/src/funciones.h
+
