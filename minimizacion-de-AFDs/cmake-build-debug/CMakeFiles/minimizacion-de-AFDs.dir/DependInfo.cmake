@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/hayam/CLionProjects/minimizacion-de-AFDs/src/funciones.cpp" "C:/Users/hayam/CLionProjects/minimizacion-de-AFDs/cmake-build-debug/CMakeFiles/minimizacion-de-AFDs.dir/src/funciones.cpp.obj"
-  "C:/Users/hayam/CLionProjects/minimizacion-de-AFDs/src/main.cpp" "C:/Users/hayam/CLionProjects/minimizacion-de-AFDs/cmake-build-debug/CMakeFiles/minimizacion-de-AFDs.dir/src/main.cpp.obj"
+  "C:/Users/hayam/CLionProjects/proyecto-teoria-de-la-computacion/minimizacion-de-AFDs/src/funciones.cpp" "C:/Users/hayam/CLionProjects/proyecto-teoria-de-la-computacion/minimizacion-de-AFDs/cmake-build-debug/CMakeFiles/minimizacion-de-AFDs.dir/src/funciones.cpp.obj"
+  "C:/Users/hayam/CLionProjects/proyecto-teoria-de-la-computacion/minimizacion-de-AFDs/src/main.cpp" "C:/Users/hayam/CLionProjects/proyecto-teoria-de-la-computacion/minimizacion-de-AFDs/cmake-build-debug/CMakeFiles/minimizacion-de-AFDs.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

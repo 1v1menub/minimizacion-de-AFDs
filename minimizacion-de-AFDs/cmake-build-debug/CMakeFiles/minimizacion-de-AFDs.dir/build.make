@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\hayam\CLionProjects\minimizacion-de-AFDs
+CMAKE_SOURCE_DIR = C:\Users\hayam\CLionProjects\proyecto-teoria-de-la-computacion\minimizacion-de-AFDs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\hayam\CLionProjects\minimizacion-de-AFDs\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\hayam\CLionProjects\proyecto-teoria-de-la-computacion\minimizacion-de-AFDs\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/minimizacion-de-AFDs.dir/depend.make
@@ -58,29 +58,29 @@ include CMakeFiles/minimizacion-de-AFDs.dir/flags.make
 
 CMakeFiles/minimizacion-de-AFDs.dir/src/funciones.cpp.obj: CMakeFiles/minimizacion-de-AFDs.dir/flags.make
 CMakeFiles/minimizacion-de-AFDs.dir/src/funciones.cpp.obj: ../src/funciones.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hayam\CLionProjects\minimizacion-de-AFDs\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/minimizacion-de-AFDs.dir/src/funciones.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\minimizacion-de-AFDs.dir\src\funciones.cpp.obj -c C:\Users\hayam\CLionProjects\minimizacion-de-AFDs\src\funciones.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hayam\CLionProjects\proyecto-teoria-de-la-computacion\minimizacion-de-AFDs\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/minimizacion-de-AFDs.dir/src/funciones.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\minimizacion-de-AFDs.dir\src\funciones.cpp.obj -c C:\Users\hayam\CLionProjects\proyecto-teoria-de-la-computacion\minimizacion-de-AFDs\src\funciones.cpp
 
 CMakeFiles/minimizacion-de-AFDs.dir/src/funciones.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minimizacion-de-AFDs.dir/src/funciones.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hayam\CLionProjects\minimizacion-de-AFDs\src\funciones.cpp > CMakeFiles\minimizacion-de-AFDs.dir\src\funciones.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hayam\CLionProjects\proyecto-teoria-de-la-computacion\minimizacion-de-AFDs\src\funciones.cpp > CMakeFiles\minimizacion-de-AFDs.dir\src\funciones.cpp.i
 
 CMakeFiles/minimizacion-de-AFDs.dir/src/funciones.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minimizacion-de-AFDs.dir/src/funciones.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hayam\CLionProjects\minimizacion-de-AFDs\src\funciones.cpp -o CMakeFiles\minimizacion-de-AFDs.dir\src\funciones.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hayam\CLionProjects\proyecto-teoria-de-la-computacion\minimizacion-de-AFDs\src\funciones.cpp -o CMakeFiles\minimizacion-de-AFDs.dir\src\funciones.cpp.s
 
 CMakeFiles/minimizacion-de-AFDs.dir/src/main.cpp.obj: CMakeFiles/minimizacion-de-AFDs.dir/flags.make
 CMakeFiles/minimizacion-de-AFDs.dir/src/main.cpp.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hayam\CLionProjects\minimizacion-de-AFDs\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/minimizacion-de-AFDs.dir/src/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\minimizacion-de-AFDs.dir\src\main.cpp.obj -c C:\Users\hayam\CLionProjects\minimizacion-de-AFDs\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hayam\CLionProjects\proyecto-teoria-de-la-computacion\minimizacion-de-AFDs\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/minimizacion-de-AFDs.dir/src/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\minimizacion-de-AFDs.dir\src\main.cpp.obj -c C:\Users\hayam\CLionProjects\proyecto-teoria-de-la-computacion\minimizacion-de-AFDs\src\main.cpp
 
 CMakeFiles/minimizacion-de-AFDs.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minimizacion-de-AFDs.dir/src/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hayam\CLionProjects\minimizacion-de-AFDs\src\main.cpp > CMakeFiles\minimizacion-de-AFDs.dir\src\main.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hayam\CLionProjects\proyecto-teoria-de-la-computacion\minimizacion-de-AFDs\src\main.cpp > CMakeFiles\minimizacion-de-AFDs.dir\src\main.cpp.i
 
 CMakeFiles/minimizacion-de-AFDs.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minimizacion-de-AFDs.dir/src/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hayam\CLionProjects\minimizacion-de-AFDs\src\main.cpp -o CMakeFiles\minimizacion-de-AFDs.dir\src\main.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hayam\CLionProjects\proyecto-teoria-de-la-computacion\minimizacion-de-AFDs\src\main.cpp -o CMakeFiles\minimizacion-de-AFDs.dir\src\main.cpp.s
 
 # Object files for target minimizacion-de-AFDs
 minimizacion__de__AFDs_OBJECTS = \
@@ -96,7 +96,7 @@ minimizacion-de-AFDs.exe: CMakeFiles/minimizacion-de-AFDs.dir/build.make
 minimizacion-de-AFDs.exe: CMakeFiles/minimizacion-de-AFDs.dir/linklibs.rsp
 minimizacion-de-AFDs.exe: CMakeFiles/minimizacion-de-AFDs.dir/objects1.rsp
 minimizacion-de-AFDs.exe: CMakeFiles/minimizacion-de-AFDs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\hayam\CLionProjects\minimizacion-de-AFDs\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable minimizacion-de-AFDs.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\hayam\CLionProjects\proyecto-teoria-de-la-computacion\minimizacion-de-AFDs\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable minimizacion-de-AFDs.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\minimizacion-de-AFDs.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +109,6 @@ CMakeFiles/minimizacion-de-AFDs.dir/clean:
 .PHONY : CMakeFiles/minimizacion-de-AFDs.dir/clean
 
 CMakeFiles/minimizacion-de-AFDs.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\hayam\CLionProjects\minimizacion-de-AFDs C:\Users\hayam\CLionProjects\minimizacion-de-AFDs C:\Users\hayam\CLionProjects\minimizacion-de-AFDs\cmake-build-debug C:\Users\hayam\CLionProjects\minimizacion-de-AFDs\cmake-build-debug C:\Users\hayam\CLionProjects\minimizacion-de-AFDs\cmake-build-debug\CMakeFiles\minimizacion-de-AFDs.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\hayam\CLionProjects\proyecto-teoria-de-la-computacion\minimizacion-de-AFDs C:\Users\hayam\CLionProjects\proyecto-teoria-de-la-computacion\minimizacion-de-AFDs C:\Users\hayam\CLionProjects\proyecto-teoria-de-la-computacion\minimizacion-de-AFDs\cmake-build-debug C:\Users\hayam\CLionProjects\proyecto-teoria-de-la-computacion\minimizacion-de-AFDs\cmake-build-debug C:\Users\hayam\CLionProjects\proyecto-teoria-de-la-computacion\minimizacion-de-AFDs\cmake-build-debug\CMakeFiles\minimizacion-de-AFDs.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/minimizacion-de-AFDs.dir/depend
 

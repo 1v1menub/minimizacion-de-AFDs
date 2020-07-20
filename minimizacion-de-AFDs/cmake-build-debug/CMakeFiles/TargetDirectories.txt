@@ -1,3 +1,3 @@
-C:/Users/hayam/CLionProjects/minimizacion-de-AFDs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/hayam/CLionProjects/minimizacion-de-AFDs/cmake-build-debug/CMakeFiles/minimizacion-de-AFDs.dir
-C:/Users/hayam/CLionProjects/minimizacion-de-AFDs/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/hayam/CLionProjects/proyecto-teoria-de-la-computacion/minimizacion-de-AFDs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/hayam/CLionProjects/proyecto-teoria-de-la-computacion/minimizacion-de-AFDs/cmake-build-debug/CMakeFiles/minimizacion-de-AFDs.dir
+C:/Users/hayam/CLionProjects/proyecto-teoria-de-la-computacion/minimizacion-de-AFDs/cmake-build-debug/CMakeFiles/edit_cache.dir

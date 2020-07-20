@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/hayam/CLionProjects/minimizacion-de-AFDs
+# Install script for directory: C:/Users/hayam/CLionProjects/proyecto-teoria-de-la-computacion/minimizacion-de-AFDs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/lol")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/minimizacion-de-AFDs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/hayam/CLionProjects/minimizacion-de-AFDs/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/hayam/CLionProjects/proyecto-teoria-de-la-computacion/minimizacion-de-AFDs/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
