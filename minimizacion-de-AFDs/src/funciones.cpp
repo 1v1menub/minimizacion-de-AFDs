@@ -273,6 +273,7 @@ pair<vector<bool>, vector<vector<int>>> hopcroft(pair<vector<bool>, vector<vecto
         else {
             break;
         }
+        
     }
     for(int i = 0; i < ne; i++) {
         vecf.push_back(0);
