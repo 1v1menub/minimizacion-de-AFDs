@@ -26,6 +26,4 @@ bool verificar_equivalencia(pair<vector<bool>, vector<vector<int>>> afd, vector<
 pair<vector<bool>, vector<vector<int>>> creador_0div(int div, int exponente);
 
 
-
-
 #endif //TEORIA3_FUNCIONES_H

@@ -242,6 +242,9 @@ pair<vector<bool>, vector<vector<int>>> hopcroft(pair<vector<bool>, vector<vecto
             if(!equivalencias[iter][i].empty()) {
                 t++;
             }
+            else {
+                break;
+            }
         }
         for(int i = 0; i < t; i++) {
             for(int j = 0; j < equivalencias[iter][i].size() - 1; j++) {
@@ -370,3 +373,4 @@ pair<vector<bool>, vector<vector<int>>> creador_0div(int div, int exponente) {
     afd.second = vect;
     return afd;
 }
+
