@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\minimizacion-de-AFDs.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\minimizacion-de-AFDs.dir/objects.a @CMakeFiles\minimizacion-de-AFDs.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\minimizacion-de-AFDs.dir/objects.a -Wl,--no-whole-archive  -o minimizacion-de-AFDs.exe -Wl,--out-implib,libminimizacion-de-AFDs.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\minimizacion-de-AFDs.dir\linklibs.rsp

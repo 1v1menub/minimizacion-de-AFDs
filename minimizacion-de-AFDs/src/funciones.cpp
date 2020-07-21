@@ -5,7 +5,6 @@
 #include <algorithm>
 #include "funciones.h"
 
-
 pair<vector<bool>, vector<vector<int>>> crear_automata() {
     pair<vector<bool>, vector<vector<int>>> afd;
     vector<bool> vecf;
@@ -75,14 +74,14 @@ void imprimir_automata(pair<vector<bool>, vector<vector<int>>> afd) {
     }
 }
 
-pair<vector<bool>, vector<vector<int>>> brozowski(pair<vector<bool>, vector<vector<int>>> afd) {
+pair<vector<bool>, vector<vector<int>>> brzozowski(pair<vector<bool>, vector<vector<int>>> afd) {
     pair <vector<bool>, vector<vector<vector<int>>>> afne;
     pair<vector<bool>, vector<vector<int>>> afd1;
     afne = crear_afne(afd);
     afd1 = crear_afd(afne);
     afne = crear_afne(afd);
     afd1 = crear_afd(afne);
-    return afd;
+    return afd1;
 }
 
 pair <vector<bool>, vector<vector<vector<int>>>> crear_afne(pair<vector<bool>, vector<vector<int>>> afd) {
@@ -222,7 +221,7 @@ pair<vector<bool>, vector<vector<int>>> hopcroft(pair<vector<bool>, vector<vecto
     vector<vector<vector<int>>> equivalencias;
     vector<int> veccopycopy;
     vector<vector<int>> veccopy;
-    for(int i = 0; i < 10; i++) {
+    for(int i = 0; i < n; i++) {
         veccopy.push_back(veccopycopy);
     }
     equivalencias.push_back(veccopy);
@@ -339,4 +338,66 @@ bool verificar_equivalencia(pair<vector<bool>, vector<vector<int>>> afd, vector<
     else {
         return 0;
     }
+}
+
+pair<vector<bool>, vector<vector<int>>> creador_0div2(int exponente) {
+    pair<vector<bool>, vector<vector<int>>> afd;
+    vector<bool> vecf;
+    vector<int> veccopy;
+    vector<vector<int>> vect;
+    for(int i = 0; i < 2; i++) {
+        vect.push_back(veccopy);
+    }
+    int n = pow(2, exponente);
+    for(int i = 0; i < n; i++) {
+        if(i % 2 == 0) {
+            vecf.push_back(1);
+        }
+        else {
+            vecf.push_back(0);
+        }
+    }
+    for(int j = 0; j < n; j++) {
+        if(j + 1 == n) {
+            vect[0].push_back(0);
+        }
+        vect[0].push_back(j + 1);
+    }
+    for(int i = 0; i < n; i++) {
+        vect[1].push_back(i);
+    }
+    afd.first = vecf;
+    afd.second = vect;
+    return afd;
+}
+
+pair<vector<bool>, vector<vector<int>>> creador_0div3(int exponente) {
+    pair<vector<bool>, vector<vector<int>>> afd;
+    vector<bool> vecf;
+    vector<int> veccopy;
+    vector<vector<int>> vect;
+    for(int i = 0; i < 2; i++) {
+        vect.push_back(veccopy);
+    }
+    int n = pow(3, exponente);
+    for(int i = 0; i < n; i++) {
+        if(i % 3 == 0) {
+            vecf.push_back(1);
+        }
+        else {
+            vecf.push_back(0);
+        }
+    }
+    for(int j = 0; j < n; j++) {
+        if(j + 1 == n) {
+            vect[0].push_back(0);
+        }
+        vect[0].push_back(j + 1);
+    }
+    for(int i = 0; i < n; i++) {
+        vect[1].push_back(i);
+    }
+    afd.first = vecf;
+    afd.second = vect;
+    return afd;
 }
