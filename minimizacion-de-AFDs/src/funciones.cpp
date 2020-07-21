@@ -76,12 +76,11 @@ void imprimir_automata(pair<vector<bool>, vector<vector<int>>> afd) {
 
 pair<vector<bool>, vector<vector<int>>> brzozowski(pair<vector<bool>, vector<vector<int>>> afd) {
     pair <vector<bool>, vector<vector<vector<int>>>> afne;
-    pair<vector<bool>, vector<vector<int>>> afd1;
     afne = crear_afne(afd);
-    afd1 = crear_afd(afne);
+    afd = crear_afd(afne);
     afne = crear_afne(afd);
-    afd1 = crear_afd(afne);
-    return afd1;
+    afd = crear_afd(afne);
+    return afd;
 }
 
 pair <vector<bool>, vector<vector<vector<int>>>> crear_afne(pair<vector<bool>, vector<vector<int>>> afd) {

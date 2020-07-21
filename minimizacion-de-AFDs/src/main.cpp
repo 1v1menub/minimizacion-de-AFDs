@@ -5,19 +5,19 @@
 #include "funcionestime.h"
 
 int main() {
-    pair<vector<bool>, vector<vector<int>>> automatax;
-    pair<vector<bool>, vector<vector<int>>> automataxb;
-    automatax = crear_automata();
+    pair<vector<bool>, vector<vector<int>>> a;
+    pair<vector<bool>, vector<vector<int>>> b;
+    a = crear_automata();
     //automatax = creador_0div(3, 7);
-    automataxb = automatax;
+    b = a;
     cout << endl << "AFD base: " << endl << endl;
-    imprimir_automata(automatax);
-    automatax = brzozowski(automatax);
+    imprimir_automata(a);
+    a = brzozowski(a);
     cout << endl << endl << "AFD minimizado Brzozowski: " << endl << endl;
-    imprimir_automata(automatax);
-    automatax = hopcroft(automatax);
+    imprimir_automata(a);
+    b = hopcroft(b);
     cout << endl << endl << "AFD minimizado Hopcroft: " << endl << endl;
-    imprimir_automata(automatax);
+    imprimir_automata(b);
     //prueba_brzd2();
     //prueba_hopd2();
     //prueba_brzd3();
