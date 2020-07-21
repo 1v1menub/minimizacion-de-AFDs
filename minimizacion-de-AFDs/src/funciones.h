@@ -23,8 +23,9 @@ pair<vector<bool>, vector<vector<int>>> hopcroft(pair<vector<bool>, vector<vecto
 
 bool verificar_equivalencia(pair<vector<bool>, vector<vector<int>>> afd, vector<vector<int>> equivalencia, int estado1, int estado2);
 
-pair<vector<bool>, vector<vector<int>>> creador_0div2(int exponente);
+pair<vector<bool>, vector<vector<int>>> creador_0div(int div, int exponente);
 
-pair<vector<bool>, vector<vector<int>>> creador_0div3(int exponente);
+
+
 
 #endif //TEORIA3_FUNCIONES_H
