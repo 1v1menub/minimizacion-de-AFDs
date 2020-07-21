@@ -287,6 +287,7 @@ pair<vector<bool>, vector<vector<int>>> hopcroft(pair<vector<bool>, vector<vecto
     for(int i = 0; i < afd.second.size(); i++) {
         vect.push_back(veccopycopy);
     }
+    // creo que el error del algoritmo de hopcroft esta en esta parte ↓ tiene algo que ver con como organizo los nuevos estados para armar el afd final. 
     for(int i = 0; i < afd.second.size(); i++) {
         for(int j = 0; j < ne; j++) {
             for(int x = 0; x < ne; x++) {
